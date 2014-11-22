@@ -50,6 +50,11 @@
       position:fixed;
       bottom:50px;
     }
+       .photo{ 
+           width:100px; 
+           height:100px; 
+           border-radius:120px; 
+        } 
         .menu
         {
             height: 100%;
@@ -125,9 +130,3 @@
             background-color:#eea19a;
             padding-top:40px;
         }
-            
-       .image{ 
-           width:100px; 
-           height:100px; 
-           border-radius:120px; 
-        } 
