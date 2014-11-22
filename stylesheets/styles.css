@@ -28,9 +28,18 @@
        color:white;
      }
      a {
-        font-size:10px;
-        color:#6d6e71;
-     }
+  color:#39c;
+  font-weight:400;
+  text-decoration:none;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.6em;
+  display:block;
+}
+
     footer {
         bottom:20px;
      }
