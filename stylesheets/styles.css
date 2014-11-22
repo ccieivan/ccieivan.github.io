@@ -125,19 +125,9 @@
             background-color:#eea19a;
             padding-top:40px;
         }
-        .photo
-        {  
-            border:1px solid #ccc;  
-            margin:2em auto 1em;  
-            max-width:650px;  
-            min-width:544px;  
-            -moz-border-radius:20px;  
-            -webkit-border-radius:20px;  
-            border-radius:20px;  
-        } 
             
        .image{ 
-           width:43px; 
-           height:43px; 
-           border-radius:50px; 
+           width:100px; 
+           height:100px; 
+           border-radius:100px; 
         } 
