@@ -10,8 +10,9 @@
        color:rgb(115, 118, 122);
        margin:0 0 20px;
      }
-     p, ul, ol, table, pre, dl {
+     p {
        margin:0 0 20px;
+       color:#6d6e71;
      }
      h1, h2 {
        line-height:1.1;
@@ -19,7 +20,7 @@
      h1 {
        font-weight: normal;
        font-size:35px;
-       color:#6d6e71;;
+       color:#6d6e71;
      }
      h2 {
        font-weight: normal;
@@ -28,7 +29,7 @@
      }
      a {
         font-size:10px;
-        color:blue;
+        color:#6d6e71;
      }
         .menu
         {
