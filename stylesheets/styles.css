@@ -26,6 +26,10 @@
        font-size:24px;
        color:white;
      }
+     small {
+        font-size:10px;
+        color:blue;
+     }
         .menu
         {
             height: 100%;
