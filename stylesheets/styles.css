@@ -1,22 +1,101 @@
-
-body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color:rgb(115, 118, 122);
-  margin:0 0 20px;
-}
-
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
-}
-
-h1, h2, h3 {
-  line-height:1.1;
-}
-
-
+     *{ margin:0; padding:0;overflow:hidden;} 
+     body{
+       font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-weight:300;
+       height:100%;
+       text-align:center;
+       color:#fff;
+     }
+     h1, h2, h3, h4, h5, h6 {
+       color:rgb(115, 118, 122);
+       margin:0 0 20px;
+     }
+     p, ul, ol, table, pre, dl {
+       margin:0 0 20px;
+     }
+     h1, h2 {
+       line-height:1.1;
+     }
+     h1 {
+       font-weight: normal;
+       font-size:35px;
+       color:#6d6e71;;
+     }
+     h2 {
+       font-weight: normal;
+       font-size:24px;
+       color:white;
+     }
+        .menu
+        {
+            height: 100%;
+            width: 25%;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:0px; 
+            bottom:0px;
+            padding-top:40px;
+        }
+        .frame1
+        {
+            height: 50%;
+            width: 25%;
+            background:#bbb;
+            position:absolute; 
+            top:0px; 
+            left:25%;
+            padding-top:0px;
+        }
+        .frame2
+        {
+            height: 50%;
+            width: 25%;
+            background:#e6db5a;
+            position:absolute; 
+            top:0px; 
+            left:50%;
+        }
+        .frame3
+        {width:auto; 
+        height:50%; 
+        width:25%; 
+        position:absolute; 
+        top:0px; 
+        left:75%; 
+        right:0px; 
+        background-color:#c79fc6;
+        padding-top:40px;
+        }
+        .frame4
+        {
+            height: 50%;
+            width: 50%;
+            background:#7782ba;
+            position:absolute; 
+            top:50%; 
+            left:25%; 
+            bottom:0px;
+        }
+        .frame5
+        {
+            height: 50%;
+            width: 0%;
+            background:#96cc97;
+            position:absolute; 
+            top:50%; 
+            left:50%; 
+            bottom:0px;
+        }
+        .frame6
+        {width:auto; 
+        height:50%; 
+        width:25%; 
+        position:absolute; 
+        top:50%; 
+        left:75%; 
+        bottom:0px; 
+        right:0px; 
+        background-color:#eea19a;
+        padding-top:40px;
+        }
