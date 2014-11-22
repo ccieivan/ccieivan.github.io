@@ -31,6 +31,9 @@
         font-size:10px;
         color:#6d6e71;
      }
+        .footer {
+           bottom:20px;
+     }
         .menu
         {
             height: 100%;
