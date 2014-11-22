@@ -28,21 +28,28 @@
        color:white;
      }
      a {
-  color:#39c;
-  font-weight:400;
-  text-decoration:none;
-}
+       color:#39c;
+       font-weight:400;
+       text-decoration:none;
+     }
 
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.6em;
-  display:block;
-}
+    a small {
+      font-size:11px;
+      color:#777;
+      margin-top:-0.6em;
+      display:block;
+    }
+
+    small {
+      font-size:11px;
+    }
 
     footer {
-        bottom:20px;
-     }
+      width:270px;
+      float:left;
+      position:fixed;
+      bottom:50px;
+    }
         .menu
         {
             height: 100%;
