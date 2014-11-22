@@ -70,7 +70,7 @@
         .frame4
         {
             height: 50%;
-            width: 50%;
+            width: 25%;
             background:#7782ba;
             position:absolute; 
             top:50%; 
@@ -80,7 +80,7 @@
         .frame5
         {
             height: 50%;
-            width: 0%;
+            width: 25%;
             background:#96cc97;
             position:absolute; 
             top:50%; 
