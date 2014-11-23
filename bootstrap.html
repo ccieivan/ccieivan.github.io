@@ -26,16 +26,22 @@
     #content {
       border-radius: 10px;
     }
-    #content .main {
-      height: 620px;
-      padding: 0;
-      background:#96cc97;
-      border-radius: 10px;
-    }
-    #content .sidebar {
+    #content .left {
       height: 620px;
       padding: 10px;
-      background-color:#eea19a;
+      background-color:#96cc97;
+      border-radius: 10px;
+    }
+    #content .middle {
+      height: 620px;
+      padding: 0;
+      background:#eea19a;
+      border-radius: 10px;
+    }
+    #content .right {
+      height: 620px;
+      padding: 10px;
+      background-color:#96cc97;
       border-radius: 10px;
     }
     #content p {
@@ -57,7 +63,7 @@
     </div>
     
     <div id='content' class='row-fluid'>
-      <div class='span3 main'>
+      <div class='span3 left'>
         <h1>ccieivan</h1>
         <p></p>
         <p>Hello world!</p>
@@ -72,11 +78,11 @@
       </footer>
       </div> 
       
-      <div class='span6 main'>
+      <div class='span6 middle'>
         <embed src="http://swf.ws.126.net/openplayer/v02/-0-2_M7S6PN5ED_M7S94TUJJ-vimg1_ws_126_net//image/snapshot_movie/2012/3/D/I/M7SBUS4DI-.swf" type="application/x-shockwave-flash" width="100%" height="51.5%" allowFullScreen="true" wmode="transparent" allowScriptAccess="always"></embed>
       </div>  
       
-      <div class='span3 sidebar'>
+      <div class='span3 right'>
         <h2>Go To</h2>
           <ul class="nav nav-tabs nav-stacked">
           <li><a href="https://github.com/ccieivan">View My GitHub</a></li>
@@ -85,7 +91,6 @@
           </ul>
       </div>
       
-
     </div>
   </div>
 </body>
