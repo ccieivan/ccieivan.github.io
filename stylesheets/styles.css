@@ -50,6 +50,8 @@
       position:fixed;
       bottom:40px;
     }
+    .container-fluid{padding-left:20px;padding-right:20px;*zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";}
+    .container-fluid:after{clear:both;}
        .photo{ 
            width:100px; 
            height:100px; 
