@@ -1,3 +1,1 @@
-* 博客使用Markdown格式编写，Markdown控有福啦！
-* 在meta.js里修改你的博客名称，版权信息，博客分类，帖子列表等信息（该文件要完全符合json格式哦）。
-* 用Markdown写好博客，命名为yyyy-MM-dd-blog_name.txt，保存在post目录里。
+Hello world!
