@@ -34,8 +34,7 @@
             <td></td>
             <td>
              <textarea name="text" cols="60" rows="10" id="mytext"></textarea> 
-              <input type="button" onclick="writeText()" value="Save"/> 
-              <input onclick="writeText()" id="mynote"/>
+              <input type=”button” value=”Write!” onclick=”writeFile(‘/note.txt’, document.getElementById(‘mytext’).value);”/>
             </td>
         </tr>
       </header>
