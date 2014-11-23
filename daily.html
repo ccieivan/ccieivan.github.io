@@ -1,37 +1,36 @@
 <!doctype html>
-
-  <script language="javascript" type="text/javascript">
-
-
-//读文件
-function readFile(filename){
-var fso = new ActiveXObject("Scripting.FileSystemObject");
-var f = fso.OpenTextFile(filename,1);
-var s = "";
-while (!f.AtEndOfStream)
-s += f.ReadLine()+"\n";
-f.Close();
-return s;
-}
-
-//写文件
-function writeFile(filename,filecontent){
-var fso, f, s ;
-fso = new ActiveXObject("Scripting.FileSystemObject");
-f = fso.OpenTextFile(filename,8,true);
-f.WriteLine(filecontent);
-f.Close();
-alert('ok');
-}
-
-</script>
 <html>
   <head>
+<script type="text/javascript"> 
+/*
+FileExists(filepath)是验证文件是否存在的方法,filepath是文件路径
+OpenTextFile，第二个参数有三种方式，都是常量:
+ForReading=1          以只读方式打开文件。 不能写这个文件。
+ForWriting=2          以写方式打开文件
+ForAppending= 8       打开文件并从文件末尾开始写。
+*/
+
+var oFso,oFile,sFile,sContent;
+sFile = "blog/20141123.txt";
+
+//写文件
+oFso = new ActiveXObject("Scripting.FileSystemObject");  
+oFile = oFso.OpenTextFile(sFile,2,true); //写方式打开
+oFile.WriteLine("菩提本无树，明镜亦非台，本来无一物，何处惹尘埃!");      
+oFile.Close();  
+
+//读文件
+oFile = oFso.OpenTextFile(sFile,1);  //只读方式打开
+sContent = oFile.ReadLine();
+oFile.Close();  
+
+document.write(sFile + "文件内容为：<br/><br/>" + sContent);
+</script>
+
+
   </head>
   <body>
-<input type="text" id="in" name="in" />
-<input type="button" value="Write!" onclick="writeFile('/blog/20141123.txt',document.getElementByIdx_x('in').value);"/><br><br>
-<input type="button" value="Read!" onclick="document.getElementByIdx_x('show').value=readFile('/blog/20141123.txt');"/><br>
+<input type="button" value="Read!" onclick="document.wite();"/><br>
 <textarea id="show" name="show" cols="100" rows="20" >
 </textarea>
   </body>
