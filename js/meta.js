@@ -7,6 +7,6 @@
     ],
     "articles":[
         {"title": "Harvard", "file": "Harvard", "cate":"Harvard"},
-        {"title": "tech hello world", "file": "2012-01-23", "cate":"Coursera"}
+        {"title": "Coursera", "file": "Coursera", "cate":"Coursera"}
     ]
 }
