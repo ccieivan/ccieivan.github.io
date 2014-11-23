@@ -25,6 +25,14 @@
       position:fixed;
       bottom:40px;
     }
+    input[type="submit"] {
+      border: 0;
+      padding: 12px;
+      font-size: 18px;
+      color: black;
+      background: limegreen;
+    }
+    
        .photo{ 
            width:100px; 
            height:100px; 
