@@ -1,24 +1,37 @@
-<!doctype html>
 <html>
-  <head>
-<script type="text/javascript"> 
+<head>
+<title>JS操作文本文件</title>
+</head>
+<body>
 
-var oFso,oFile,sFile,sContent;
-sFile = "blog/20141123.txt";
+<script>
+var arr = 1;
+function Write2Text()
+{
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+var f = fso.CreateTextFile("blog/20141123.txt", true);
+f.write(arr);
+f.Close();
+}
+</script>
+<input type=button value="Write" onclick="Write2Text()">
 
-//读文件
-oFile = oFso.OpenTextFile(sFile,1);  //只读方式打开
-sContent = oFile.ReadLine();
-oFile.Close();  
-
-document.write(sFile + "文件内容为：<br/><br/>" + sContent);
+<script>
+function GetHeader(src) { 
+var ForReading=1; 
+var fso=new ActiveXObject("Scripting.FileSystemObject"); 
+var f=fso.OpenTextFile(src,ForReading); 
+return(f.ReadAll()); 
+} 
+function ReadText(){
+var arr=GetHeader("blog/20141123.txt").split("\r\n");
+for(var i=0;i<arr.length;i++){
+alert("第"+(i+1)+"行数据为:"+arr[i]);
+}
+}
 </script>
 
+<input type=button value="Read" onclick="ReadText()">
 
-  </head>
-  <body>
-<input type="button" value="Read!" onclick="document.getElementById('show').value="123"/><br>     
-<textarea id="show" name="show" cols="100" rows="20" >     
-</textarea>     
-  </body>
+</body>
 </html>
