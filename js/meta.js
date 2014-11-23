@@ -2,12 +2,11 @@
     "site_name": "ccieivan.com",
     "copyright": "ccieivan 2014",
     "cates": [
-        {"name": "tech", "text":"Harvard"},
-        {"name": "art", "text":"Coursera"}
+        {"name": "Harvard", "text":"Harvard"},
+        {"name": "Coursera", "text":"Coursera"}
     ],
     "articles":[
-        {"title": "tech hello world", "file": "2012-01-23", "cate":"tech"},
-        {"title": "Harvard", "file": "Harvard", "cate":"art"}
-
+        {"title": "Harvard", "file": "Harvard", "cate":"Harvard"},
+        {"title": "tech hello world", "file": "2012-01-23", "cate":"Coursera"}
     ]
 }
