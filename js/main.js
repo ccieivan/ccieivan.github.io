@@ -84,7 +84,7 @@ $(function(){
         },
         sync: function(){
             var that = this;
-            $.getJSON('meta.js', function(data){
+            $.getJSON('js/meta.js', function(data){
                 that.data = data;
                 that.render();
             });
