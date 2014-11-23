@@ -2,22 +2,9 @@
 <html>
   <head>
 <script type="text/javascript"> 
-/*
-FileExists(filepath)是验证文件是否存在的方法,filepath是文件路径
-OpenTextFile，第二个参数有三种方式，都是常量:
-ForReading=1          以只读方式打开文件。 不能写这个文件。
-ForWriting=2          以写方式打开文件
-ForAppending= 8       打开文件并从文件末尾开始写。
-*/
 
 var oFso,oFile,sFile,sContent;
 sFile = "blog/20141123.txt";
-
-//写文件
-oFso = new ActiveXObject("Scripting.FileSystemObject");  
-oFile = oFso.OpenTextFile(sFile,2,true); //写方式打开
-oFile.WriteLine("菩提本无树，明镜亦非台，本来无一物，何处惹尘埃!");      
-oFile.Close();  
 
 //读文件
 oFile = oFso.OpenTextFile(sFile,1);  //只读方式打开
@@ -30,8 +17,8 @@ document.write(sFile + "文件内容为：<br/><br/>" + sContent);
 
   </head>
   <body>
-<input type="button" value="Read!" onclick=document.getElementById('show').value=doucument.write();/><br>
-<textarea id="show" name="show" cols="100" rows="20" >
-</textarea>
+<input type="button" value="Read!" onclick="document.getElementById('show').value=readFile(sFile);"/><br>     
+<textarea id="show" name="show" cols="100" rows="20" >     
+</textarea>     
   </body>
 </html>
