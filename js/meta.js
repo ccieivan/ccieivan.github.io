@@ -1,5 +1,5 @@
 {
-    "site_name": "ccieivan",
+    "site_name": "ccieivan.com",
     "copyright": "ccieivan 2014",
     "cates": [
         {"name": "tech", "text":"Harvard"},
