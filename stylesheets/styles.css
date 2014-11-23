@@ -32,8 +32,6 @@
       color: black;
       background: limegreen;
     }
-    function Onsubmit(){ window.location.href='workshop.html'}
-    
        .photo{ 
            width:100px; 
            height:100px; 
