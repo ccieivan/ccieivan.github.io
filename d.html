@@ -30,7 +30,7 @@
                         <div class="nav-collapse">
                             <ul class="nav">
                                 {{#navlist}}
-                                <li><a href="#!show/{{link}}">{{text}}</a></li>
+                                <li><a href="{{link}}">{{text}}</a></li>
                                 {{/navlist}}
                             </ul>
                         </div>
@@ -39,7 +39,31 @@
                 </div>
             </div>
         </script>
+     <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span3">
+                        <div class="well sidebar-nav">
+                        </div>
+                    </div>
+                    <div class="span9">
+                        <div class="row-fluid article-content">
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.fluid-container-->
+        </script>
 
+        <script id="tpl-sidebar" type="text/template">
+            <ul class="nav nav-list">
+                {{#months}}
+                <li class="nav-header">{{month}}</li>
+                {{#articles}}
+                <li><a href="#!show/{{link}}">{{text}}</a></li>
+                {{/articles}}
+                {{/months}}
+            </ul>
+        </script>
+        
         <div class="main-body">
         </div>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
