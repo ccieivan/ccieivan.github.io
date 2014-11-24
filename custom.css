@@ -2,4 +2,22 @@
   .socials {
     padding: 10px;
   }
+  .carousel-inner .item .carousel-caption {
+position:absolute;
+top: 200px
+}
+.carousel-indicators {
+position: absolute;
+top: 400px;
+}
+.navbar {
+margin-bottom:0;
+}
+.navbar-nav>li>a {
+line-height: 50px;
+font-size: 16px
+}
+h1 {
+  margin-bottom: 30px
+  }
 </style>
