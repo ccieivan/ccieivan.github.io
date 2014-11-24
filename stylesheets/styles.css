@@ -33,7 +33,7 @@
         .menu
         {
             height: 100%;
-            width: 30%;
+            width: 25%;
             background:white;
             position:absolute; 
             top:0px; 
@@ -44,11 +44,12 @@
         .frame-big
         {
             height: 100%;
-            width: 70%;
+            width: 75%;
             background:white;
             position:absolute; 
             top:0px; 
-            left:30%;
+            left:25%;
+            bottom:0px;
             padding-top:0px;
         }
 
