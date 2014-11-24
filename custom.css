@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 h1 {
   margin-bottom: 30px
@@ -14,12 +14,12 @@ h1 {
   top: 400px;
 }
 .navbar {
-min-height: 40px;
+min-height: 60px;
   margin-bottom:0;
 }
 .navbar-nav>li>a {
-padding-top: 10px;
-padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 16px
 }
 .navbar-brand {
