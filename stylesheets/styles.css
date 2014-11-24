@@ -15,21 +15,12 @@
      p {
        margin:0 0 20px;
      }
-
-    small {
-      font-size:11px;
-    }
     footer {
       width:350px;
       float:left;
       position:fixed;
       bottom:40px;
     }
-       .photo{ 
-           width:100px; 
-           height:100px; 
-           border-radius:110px; 
-        } 
         .menu
         {
             height: 100%;
