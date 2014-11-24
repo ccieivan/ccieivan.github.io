@@ -48,9 +48,23 @@
       </div>
       
       <div class='span9 main'>
-        <p>2</p>
+        <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>   
+            <div class="carousel-inner">
+            <div class="item active"><img src="img/lauren.png" class="img-responsive" height=100% width="100%" alt="First"></div>
+            <div class="item"><img src="img/splash.jpg" class="img-responsive" height=100% width="100%" alt="Second"></div>
+          </div>
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
       </div>
     </div>
+    <script type="text/javascript">
+        $("#myCarousel").carousel();
+    </script>
   </div>
 </body>
 </html>
