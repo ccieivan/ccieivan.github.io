@@ -13,14 +13,18 @@ h1 {
   position: absolute;
   top: 400px;
 }
-.navbar {
-  min-height: 60px;
-  margin-bottom:0;
-
-}
 .navbar-nav>li>a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 40px;
-  font-size: 16px
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.navbar-brand {
+height: 40px;
+padding-top: 10px;
+}
+.navbar {
+min-height: 40px;
+}
+.navbar-toggle {
+margin-top: 4px;
+margin-bottom: 4px;
 }
