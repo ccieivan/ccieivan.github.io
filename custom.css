@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 h1 {
   margin-bottom: 30px
@@ -25,9 +25,4 @@ padding-bottom: 10px;
 }
 .navbar-brand {
 height: 40px;
-padding-top: 10px;
-}
-.navbar-toggle {
-margin-top: 4px;
-margin-bottom: 4px;
 }
