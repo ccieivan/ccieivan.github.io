@@ -1,11 +1,14 @@
-<style>
-  body{
-    top:45px;
-  }
-  .socials {
-    padding: 10px;
-  }
-  .carousel-inner .item .carousel-caption {
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 15px;
+  line-height: 150%;
+}
+.socials {
+  padding: 10px;
+}
+.carousel-inner .item .carousel-caption {
 position:absolute;
 top: 200px
 }
@@ -23,4 +26,3 @@ font-size: 16px
 h1 {
   margin-bottom: 20px
   }
-</style>
