@@ -19,6 +19,9 @@
       </ul>
     </nav>
 
+<input type="text" id="in" name="in" />     
+<input type="button" value="Write!" onclick="writeFile('20141123.txt',document.getElementById('in').value);"/><br>    
+
     <div id="myCarousel" class="carousel slide">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -49,5 +52,15 @@
           $("#show").load("20141123.txt");
         });
       </script>
+      <script language="javascript" type="text/javascript">     
+        function writeFile(filename,filecontent){     
+          var fso, f, s ;     
+          fso = new ActiveXObject("Scripting.FileSystemObject");        
+          f = fso.OpenTextFile(filename,8,true);     
+          f.WriteLine(filecontent);       
+          f.Close();     
+          alert('ok');
+        }     
+      </script> 
   </body>
 </html>
