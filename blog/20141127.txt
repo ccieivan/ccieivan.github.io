@@ -1,0 +1,21 @@
+用PDO来连接SQLite,确定PHP的版本支持该扩展。
+
+检查PHP.ini中把PDO和PDO_sqlite启用了
+extension=php_pdo.dll
+extension=php_pdo_sqlite.dll
+
+OK，测试连接：
+
+<?php
+  $db = new PDO("sqlite:./myDB.sqlite"); //注意路径格式
+  if ($db){ 
+    echo 'connect ok'; 
+  }else{ 
+    echo 'connect bad'; 
+  }
+
+  foreach ($db->query("SELECT name FROM test;") as $row)
+  {
+    echo "$row[0]";
+  }
+?>
