@@ -1,1 +1,1 @@
-My website: insqur.com
+insqur.com
